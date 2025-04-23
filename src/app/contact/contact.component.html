@@ -1,0 +1,28 @@
+<!-- Add this to the <head> section of index.html -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
+<section class="contact-section">
+    <div class="contact-container">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out to me via email or LinkedIn!</p>
+  
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:your-email@gmail.com" class="contact-link">your-email&#64;gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" class="contact-link">LinkedIn</a>
+        </div>
+      </div>
+  
+      <form (submit)="onSubmit()" class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="cta-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
