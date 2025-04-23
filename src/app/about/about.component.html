@@ -1,0 +1,18 @@
+<section class="about-section">
+    <div class="about-container">
+      <h2 class="section-title">About Me</h2>
+      <p class="about-text">
+        I'm <span class="highlight">Geetesh</span>, a passionate Full-Stack Developer
+        who loves building real-world web apps using modern tech and clean code.
+      </p>
+  
+      <h3 class="skills-heading">Skills</h3>
+      <div class="skills-grid">
+        <div class="skill-card" *ngFor="let skill of skills">
+          <i [class]="skill.icon"></i>
+          <span>{{ skill.name }}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
