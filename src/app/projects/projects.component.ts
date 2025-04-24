@@ -28,8 +28,8 @@ Implemented secure login and real-time updates for adding, editing, and deleting
 Designed a recommender feature based on user reading history, achieving over 90% relevancy in book suggestions.`,
       image: 'book.jpeg',
       techStack: ['Angular', 'Books API', 'Firebase'],
-      githubLink: 'https://geetesh2.github.io/book-tracker-app/',
-      liveLink: '#'
+      liveLink: 'https://geetesh2.github.io/book-tracker-app/',
+      githubLink: 'https://github.com/geetesh2/book-tracker-app',
     }
   ];
 }

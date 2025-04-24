@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { trigger, transition, style, animate } from '@angular/animations';
-
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
   animations: [
