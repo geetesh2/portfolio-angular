@@ -1,11 +1,10 @@
-<!-- src/app/components/projects/projects.component.html -->
 <section class="projects-section">
-    <h2 class="section-title">My Projects</h2>
-    <div class="project-list">
-      <app-project
-        *ngFor="let project of projects"
-        [project]="project"
-      ></app-project>
-    </div>
+  <h2 class="section-title">My Projects</h2>
+
+  <div class="project-list">
+    <app-project
+      *ngFor="let project of projects"
+      [project]="project"
+    ></app-project>
+  </div>
 </section>
-  

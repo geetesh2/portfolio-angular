@@ -4,14 +4,16 @@
   <div class="card-content" [title]="project.description">
     <h3>{{ project.title }}</h3>
     <p class="description">{{ project.description }}</p>
+    
     <div class="tech-stack">
       <strong>Tech Stack:</strong> {{ project.techStack.join(', ') }}
     </div>
+
     <div class="links">
-      <a [href]="project.githubLink" target="_blank">
+      <a [href]="project.githubLink" target="_blank" rel="noopener">
         <i class="fab fa-github"></i> GitHub
       </a>
-      <a [href]="project.liveLink" target="_blank">
+      <a [href]="project.liveLink" target="_blank" rel="noopener">
         <i class="fas fa-external-link-alt"></i> Live
       </a>
     </div>

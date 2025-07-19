@@ -159,3 +159,57 @@
 a{
   color: white;
 }
+
+@media (max-width: 768px) {
+  .intro-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-container {
+    width: 180px;
+    height: 180px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .intro-text {
+    font-size: 1.05rem;
+  }
+
+  .cta-btn {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }
+
+  .floating-icons {
+    bottom: 3%;
+    right: 5%;
+    font-size: 2rem;
+    gap: 15px;
+    position: fixed; /* keeps icons in view */
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-container {
+    width: 150px;
+    height: 150px;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+  }
+
+  .cta-btn {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+
+  .floating-icons {
+    right: 4%;
+    bottom: 2%;
+    font-size: 1.8rem;
+    gap: 12px;
+  }
+}

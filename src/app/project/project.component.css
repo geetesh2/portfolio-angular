@@ -1,14 +1,15 @@
 :host {
   display: block;
-  width: 320px;
-  height: 460px; /* Fixed card height */
+  width: 100%;
+  max-width: 350px;
+  height: auto;
   background-color: #1e1e1e;
   color: #fff;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin: auto;
+  margin: 1rem auto;
 }
 
 :host:hover {
@@ -74,4 +75,28 @@ h3 {
 
 .links a:hover {
   color: #fff;
+}
+
+/* 🔥 Responsive Enhancements */
+@media (max-width: 600px) {
+  :host {
+    max-width: 100%;
+    margin: 1rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .tech-stack {
+    font-size: 0.8rem;
+  }
+
+  .links a {
+    font-size: 0.9rem;
+  }
 }
